@@ -20,5 +20,6 @@ pkgs.mkShell {
   buildInputs = [
     python311
     poetry
+    pkgs.just
   ];
 }
