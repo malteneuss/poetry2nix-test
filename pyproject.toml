@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "poetry2nix-test"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+packages = [{ include = "some.py" }]
+
+# include = ["pyproject.toml", "poetry.lock"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+#torch = "2.2.2"
+numpy = "*"
+# bcrypt = "*"
+
+[tool.poetry.scripts]
+some = "some:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
