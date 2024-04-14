@@ -11,7 +11,8 @@ packages = [{ include = "some.py" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-# torch = "2.2.2"
+#torch = "2.2.2"
+#sphinxcontrib_jquery = "4.1"
 # error: store path 'ds7zx3q1ac6fx77kgcfszhgq18058r4b-torch-2.2.0%2Bcpu-cp311-cp311-linux_x86_64.whl' contains illegal character '%'
 #torch = { url = "https://download.pytorch.org/whl/cpu/torch-2.2.0%2Bcpu-cp311-cp311-linux_x86_64.whl" }
 numpy = "*"
